@@ -199,7 +199,7 @@
   bottom: 0;
   width: 50%;
 }
-.elementimg__row {
+.elementimg__rowblock {
   padding-left: 5%;
   position: relative;
   display: flex;
@@ -229,11 +229,11 @@
   justify-content: space-between;
   margin-bottom: 7%;
 }
-.collage__column {
+.collage__columnblock {
   display: flex;
   flex-direction: column;
 }
-.collage__column-row {
+.collage__columnblock-row {
   display: flex;
   margin: 0;
 }
