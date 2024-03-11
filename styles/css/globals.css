@@ -1,0 +1,44 @@
+@import "../../fonts/fonts.css";
+body {
+  margin: 0;
+  font-family: "M PLUS 1p";
+  color: #122947;
+  padding: 0%;
+}
+
+h1 {
+  font-family: "Raleway" normal;
+  font-weight: 400;
+  font-size: 58px;
+  margin-bottom: 0;
+  color: #122947;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Raleway";
+  margin: 0%;
+}
+
+h3 {
+  font-family: "Raleway" sans-serif;
+  font-weight: 500;
+  line-height: 23.2px;
+  margin: 0%;
+}
+
+.button {
+  border: 1px solid #b3bac1;
+  padding: 1%;
+  width: fit-content;
+}
+.button:hover {
+  background: #dee291;
+  color: #2b4b2c;
+  cursor: pointer;
+}
+
+a {
+  margin: 0%;
+}/*# sourceMappingURL=globals.css.map */
