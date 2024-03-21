@@ -17,10 +17,9 @@
       justify-content: flex-end;
     }
     &-panel {
-      display: flex;
+      @extend %flex-element-center;
       flex-basis: 50%;
       justify-content: space-between;
-      align-items: center;
     }
   }
   &__line {
@@ -32,9 +31,8 @@
   &__bottompanel {
     font-size: 12px;
     color: #959595;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+    @extend %flex-element-center;
+    justify-content: space-between;
     &-lefttxt {
       font-size: 12px;
       color: #959595;
@@ -52,11 +50,10 @@
       font-size: 12px;
       color: #959595;
       margin-right: 5%;
-      
     }
   }
-  &__link{
-    &:hover{
+  &__link {
+    &:hover {
       color: white;
       text-shadow: 1px 2px 2px grey;
       cursor: pointer;

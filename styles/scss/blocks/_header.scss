@@ -20,9 +20,8 @@
     }
   }
   &__banner {
+    @extend %flex-element-center;
     gap: 2%;
-    display: flex;
-    align-items: center;
     justify-content: center;
     &-description1 {
       display: flex;
@@ -30,10 +29,9 @@
       text-align: center;
     }
     &-description {
-      display: flex;
+      @extend %flex-element-center;
       flex-direction: column;
       text-align: center;
-      align-items: center;
     }
     &-images {
       width: 100%;
@@ -44,8 +42,8 @@
       justify-content: space-between;
     }
   }
-  &__link{
-    &:hover{
+  &__link {
+    &:hover {
       color: white;
       text-shadow: 1px 2px 2px grey;
       cursor: pointer;

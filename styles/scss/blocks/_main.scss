@@ -1,8 +1,8 @@
 .menu {
+  @extend %flex-element-center;
   padding: 4% 3% 10% 3%;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
+
   &__txt {
     &-left {
       width: 25%;
@@ -86,9 +86,7 @@
   &__rowblock {
     padding-left: 5%;
     position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @extend %flex-element-center;
     padding-bottom: 12%;
   }
   &__text {
@@ -108,8 +106,7 @@
 }
 .collage {
   padding-left: 5%;
-  display: flex;
-  align-items: center;
+  @extend %flex-element-center;
   justify-content: space-between;
   margin-bottom: 7%;
   &__columnblock {

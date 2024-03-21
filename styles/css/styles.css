@@ -23,8 +23,6 @@
 }
 .header__banner {
   gap: 2%;
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
 .header__banner-description1 {
@@ -33,10 +31,8 @@
   text-align: center;
 }
 .header__banner-description {
-  display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: center;
 }
 .header__banner-images {
   width: 100%;
@@ -73,10 +69,8 @@
   justify-content: flex-end;
 }
 .footer__nav-panel {
-  display: flex;
   flex-basis: 50%;
   justify-content: space-between;
-  align-items: center;
 }
 .footer__line {
   margin-bottom: 1%;
@@ -87,8 +81,6 @@
 .footer__bottompanel {
   font-size: 12px;
   color: #959595;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 .footer__bottompanel-lefttxt {
@@ -117,9 +109,7 @@
 
 .menu {
   padding: 4% 3% 10% 3%;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .menu__txt-left {
   width: 25%;
@@ -202,9 +192,6 @@
 .elementimg__rowblock {
   padding-left: 5%;
   position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding-bottom: 12%;
 }
 .elementimg__text {
@@ -224,8 +211,6 @@
 
 .collage {
   padding-left: 5%;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   margin-bottom: 7%;
 }
@@ -246,4 +231,9 @@
 }
 .collage__images {
   width: 50%;
+}
+
+.header__banner, .header__banner-description, .footer__nav-panel, .footer__bottompanel, .menu, .elementimg__rowblock, .collage {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
